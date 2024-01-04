@@ -1,10 +1,5 @@
 # Python para Engenharia de Dados
 
-Impacta Data Engineering MBA Project
-
-Discipline: Python for Data Engineer
-
-
 # Bibtext Extractor
 
 ## Como funciona
