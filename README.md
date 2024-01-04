@@ -1,4 +1,4 @@
-# Project 01 - Python for Data Engineer
+# Python para Engenharia de Dados
 
 Impacta Data Engineering MBA Project
 
@@ -7,10 +7,10 @@ Discipline: Python for Data Engineer
 
 # Bibtext Extractor
 
-## How it works
-This tool extracts a bibfile from iee, sciencedirect and dlacm and convert it to Json, CSV or Yaml based on config.yaml file.
+## Como funciona
+Este projeto é um extrator de arquivos que pode ser usado para extrair arquivos BibTeX e convertê-los em Json, CSV ou Yaml com base no arquivo config.yaml.
 
-#### Requirements
+#### Requisitos
 - Python 3+
 - Pip
 - Lib Pandas
@@ -22,17 +22,17 @@ type: <output file type, available options: json, csv or yaml>
 file_name: <output file name>
 
 #### main.py
-Contains the main code with flow:
-  * 1 - Read all bibtext file
-  * 2 - Arrange columns 
-  * 3 - Concat dataframe of Ieee, ScientDirect and Dl ACM
-  * 4 - Read config.yaml file
-  * 5 - Write json, csv or yaml output file.
+Contém o código principal do fluxo
+  * 1 - Lê todos os arquivos BibTeX
+  * 2 - Organiza as colunas 
+  * 3 - Concatena o dataframe do Ieee, ScientDirect e Dl ACM
+  * 4 - Lê o arquivo config.yaml
+  * 5 - Escreve o arquivo de saída json, csv ou yaml.
 
-#### file folder
-Contains bibtex files from ieee, scientdirect and dl acm.
+#### Pasta File
+Contém os arquivos BibTex que foram salvos dos sites ieee, scientdirect e dl acm.
   
-#### Using
+#### Usando
 ```
 python main.py
 ```
